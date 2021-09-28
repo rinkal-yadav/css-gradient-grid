@@ -1,0 +1,189 @@
+body{
+    padding: 0px;
+    margin: 5px;
+    margin-bottom: 45px;
+}
+
+.offer{
+    width: 100%;
+    height: 23px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    background: linear-gradient(to right,red,darkgreen,green,yellow);
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.home{
+    width: 710px;
+    height: 71px;
+    background-color: #A2CDCD;
+    border: 3px solid red;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 22%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-box-1{
+    width: 100%;
+    height: 135px;
+    margin-top: 12px;
+    border-top: 1px solid brown;
+    border-right: 1px solid brown;
+    border-bottom: 2px solid brown;
+    border-left: 1px solid brown;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #00EAD3;
+    position: relative;
+}
+
+.box{
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #0CED00;
+    position: absolute;
+
+}
+
+.box-1{
+    width: 413px;
+    left: 0px;
+    height: 67px;
+    top: 0px;
+
+}
+
+.box-2{
+    width: 450px;
+    left: 34%;
+}
+
+.box-3{
+    width: 394px;
+    right: 0px;
+    top: 0px;
+    height: 44%;
+
+}
+
+.box-4{
+    width: 450px;
+    top: 49%;
+    left: 34%;
+    height: 61px;
+}
+
+.jee{
+    width: 100%;
+    height: 28px;
+    background: radial-gradient(circle,yellow, red);
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.students-box{
+    width: 100%;
+    height: 223px;
+    background: radial-gradient(ellipse, blue, lightgreen);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    border: 1px solid green;
+}
+
+.student{
+    background-color: yellow;
+    border: 2px solid red;
+    height: 82px;
+    margin-top: 5%;
+    border-radius: 10px;
+    width: 230px;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 1.5;
+    color: brown;
+    font-weight: bold;
+
+}
+
+.grid{
+    margin-top: 20px;
+    grid-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 4fr 4fr 4fr 1fr);
+    /* margin: 15px; */
+    border: 1px solid brown;
+    
+}
+
+.grid-box1{
+    background: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    grid-column: 1/5;
+    padding-bottom: 10px;
+
+}
+
+.grid-box2{
+    background: #54E346;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.grid-box3{
+    background: #5C7AEA;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+
+}
+
+.grid-box4{
+    background: #8236CB;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.grid-box5{
+    background: orange;
+    color: white;
+    grid-row: 3/4;
+    grid-column: 1/4;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.grid-box6{
+    background: black;
+    color: white;
+    text-decoration: underline;
+    grid-column: 4/5;
+    grid-row: 2/4;
+
+}
+
+.grid-box7{
+    background: #0CECDD;
+    text-align: center;
+    font-weight: bold;
+    grid-row: 4/4;
+    grid-column: 1/5;
+}
